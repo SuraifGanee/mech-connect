@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.services-container {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  /* Header */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .logo span {
+    color: #007bff;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+  }
+  .navbar ul li {
+    cursor: pointer;
+    font-weight: 500;
+  }
+  .navbar ul li.active {
+    border-bottom: 2px solid #007bff;
+  }
+  
+  .auth-buttons button {
+    margin-left: 10px;
+    padding: 8px 18px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  .signup {
+    background-color: #007bff;
+    color: white;
+  }
+  .login {
+    background-color: transparent;
+    border: 1px solid #ccc;
+  }
+  
+
+
+  /* Title */
+  .service-title {
+    text-align: center;
+    margin: 30px 0 10px;
+  }
+  
+  .towing-icon {
+    width: 120px;
+  }
+  
+  .service-title h2 {
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  
+  /* Subtitle */
+  .nearby-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-left: 60px;
+    margin-bottom: 30px;
+  }
+  
+  /* Cards */
+  .technicians-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 0 40px;
+  }
+  
+  .technician-card {
+    background-color: #5a6ca5;
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    width: 500px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .service-image {
+    width: 200px; /* Adjust this value as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: adds rounded corners */
+    margin-bottom: 15px; /* Adds some space below the image */
+  }
+  .service-title img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  .tech-info p {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+  
+  /* Request button */
+  .request-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .request-button {
+    background-color: #c72626;
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .request-button:hover {
+    background-color: #a71d1d;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    margin-top: auto;
+    padding-top: 120px;
+    font-size: 14px;
+    color: #666;
+    
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .technicians-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .technician-card {
+      width: 90%;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  

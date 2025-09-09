@@ -1,0 +1,128 @@
+.dashboard-content {
+    display: flex;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+  }
+/* Header Styles */
+
+
+body {
+  margin: 0;
+  padding-top: 20px; /* Gives breathing room from top of viewport */
+}
+.navbar {
+  display: flex;
+  padding: 10px 40px;
+  background-color: white;
+}
+
+.dashboard-header {
+  width: 100%;
+  background-color: #fff;
+  padding: 15px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky; /* or fixed if needed */
+  top: 0;
+  z-index: 1000;
+}
+.dashboard-sidebar{
+  padding: 3rem;
+}
+
+.nav-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left .logo {
+  height: 50px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.nav-right a {
+  cursor: pointer;
+  font-weight: 500;
+  color: #333;
+  text-decoration: none;
+}
+
+.nav-right a:hover {
+  color: #007bff;
+}
+
+.join-btn {
+  background-color: #ffc107;
+  color: #000;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login-btn {
+  background-color: #f3f3f3;
+  color: #333;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+  
+  .content {
+    flex: 1;
+    padding: 5rem;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .service-box {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1rem;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .service-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .service-box img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .service-box p {
+    margin-top: 0.8rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  

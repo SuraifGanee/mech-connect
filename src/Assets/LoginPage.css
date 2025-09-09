@@ -1,0 +1,119 @@
+/* Page container */
+.login-page {
+  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+  
+  /* Login box container */
+  .login-box {
+    background-color: #6c9dbb;
+    padding: 30px 30px;
+    border-radius: 15px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Heading */
+  .login-box h2 {
+    margin-bottom: 25px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  /* Input fields */
+  .login-box input[type='text'],
+  .login-box input[type='password'] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #000000;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  /* Options section */
+  .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    margin: 10px 0;
+  }
+  
+  .options a {
+    color: #002c43;
+    text-decoration: none;
+  }
+  
+  /* Register link */
+  .login-box p {
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  
+  .login-box p a {
+    color: #002c43;
+    text-decoration: none;
+  }
+  
+  /* Login button */
+  .login {
+    margin-top: 15px;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    background: linear-gradient(to right, #fbc02d, #f9a825);
+    box-shadow: 0 4px 10px rgba(251, 192, 45, 0.3);
+
+  }
+  .login:hover {
+    background-color: #218838;
+  }
+  
+  /* Footer */
+  footer {
+    position: absolute;
+    bottom: 10px;
+    font-size: 13px;
+    color: #000;
+  }
+  .logo {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: 2px solid #000; /* Optional: adds a border around the circle */
+  }
+  .logout-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff4d4d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+  
+  .logout-btn:hover {
+    background-color: #cc0000;
+  }
+  
+  

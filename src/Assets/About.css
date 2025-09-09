@@ -1,0 +1,161 @@
+/* ====== NAVBAR ====== */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #eee;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  }
+  
+  .logo {
+    height: 55px;
+    width: 55px;
+    position:static;
+    object-fit: cover;
+    border-radius: 50%; /* Makes it a circle */
+    border: 2px solid #fbc02d; /* Gold border */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.3s ease;
+  }
+  
+  .navbar-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 35px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2c3e50;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-links li:hover {
+    color: #f9a825;
+  }
+  
+  .nav-links li::after {
+    content: '';
+    height: 2px;
+    background-color: #f9a825;
+    width: 0%;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    transition: 0.3s ease;
+  }
+  
+  .nav-links li:hover::after {
+    width: 100%;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  
+  .btn {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .join-btn {
+    background: linear-gradient(to right, #fbc02d, #f9a825);
+    color: white;
+    box-shadow: 0 4px 10px rgba(251, 192, 45, 0.3);
+  }
+  
+  .join-btn:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #f9a825, #fbc02d);
+  }
+  
+  .login-btn {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .login-btn:hover {
+    background-color: #e0e0e0;
+  }
+
+/* ====== ABOUT PAGE ====== */
+.about-page {
+  padding: 60px 20px;
+  background-color: #f4f6f8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 18px;
+  padding: 50px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.about-title {
+  font-size: 2.8rem;
+  margin-bottom: 25px;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.about-subtitle {
+  font-size: 1.8rem;
+  margin-top: 40px;
+  color: #37474f;
+  font-weight: 600;
+}
+
+.about-text {
+  font-size: 1.15rem;
+  line-height: 1.85;
+  color: #555;
+  margin-top: 10px;
+}
+
+.about-list {
+  margin-top: 20px;
+  padding-left: 25px;
+  list-style: none;
+}
+
+.about-list li {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  padding-left: 1.2em;
+  position: relative;
+  color: #444;
+}
+
+.about-list li::before {
+  content: '✔';
+  position: absolute;
+  left: 0;
+  color: #fbc02d;
+  font-weight: bold;
+}

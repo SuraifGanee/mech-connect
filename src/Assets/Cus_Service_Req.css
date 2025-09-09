@@ -1,0 +1,50 @@
+.request-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .request-form {
+    background-color: #649bbd;
+    padding: 40px 60px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .request-form label {
+    color: black;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .request-form input {
+    margin-left: 20px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 1px solid #999;
+    flex: 1;
+  }
+  
+  .request-button {
+    margin-top: 30px;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    background-color: #c01826;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .request-button:hover {
+    background-color: #a01621;
+  }
+  

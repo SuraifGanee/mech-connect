@@ -1,0 +1,75 @@
+.profile-container {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-grid {
+    display: grid;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    margin-bottom: 4px;
+    font-weight: 600;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .btn.edit {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .btn.save {
+    background-color: #2ecc71;
+    color: white;
+  }
+  
+  .btn.cancel {
+    background-color: #95a5a6;
+    color: white;
+  }
+  
+  .btn.delete {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  
+  .view-grid p {
+    margin: 8px 0;
+  }
+  

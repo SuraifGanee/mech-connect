@@ -1,0 +1,160 @@
+.register-container {
+  text-align: center;
+  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border: 2px solid #000;
+}
+
+.form-sections {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.personal-info-box,
+.business-info-box {
+  background-color: #6ca0bd;
+  padding: 30px;
+  border-radius: 15px;
+  width: 350px;
+  text-align: left;
+  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.personal-info-box label,
+.business-info-box label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+.personal-info-box input,
+.business-info-box input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 5px;
+  border: 1px solid #000;
+  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 10px; /* <-- Added this line */
+}
+
+.back-btn {
+  font-size: 12px;
+  padding: 4px 10px; /* Reduced further */
+  height: 34px; /* Optional: sets fixed height */
+  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+
+/* Button Styles */
+.register-btn,
+.next-btn {
+  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.back-btn {
+  background-color: #ef1111aa;
+  color: #000;
+}
+
+.register-btn {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.next-btn {
+  background-color: #28a745;
+  color: #fff;
+  margin-top: 20px;
+}
+
+/* Hover Effects */
+.back-btn:hover {
+  background-color: #d00;
+  color: #fff;
+}
+
+.register-btn:hover {
+  background-color: #0056b3;
+}
+
+.next-btn:hover {
+  background-color: #218838;
+}
+
+.upload-box {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid #000;
+  text-align: center;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.upload-icon {
+  font-size: 24px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 14px;
+}
+.preview-wrapper {
+  position: relative;
+  display: inline-block;
+  max-width: 200px;
+}
+
+.preview-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.remove-btn {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: #ff4d4f;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 16px;
+  width: 24px;
+  height: 24px;
+  line-height: 20px;
+  text-align: center;
+}
+
