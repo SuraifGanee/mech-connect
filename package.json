@@ -20,7 +20,7 @@
     "react-router-dom": "^6.30.0",
     "react-scripts": "5.0.1",
     "recharts": "^2.15.3",
-    "sweetalert2": "^11.19.1",
+    "sweetalert2": "^11.23.0",
     "sweetalert2-react-content": "^5.1.0",
     "web-vitals": "^2.1.4"
   },
@@ -64,5 +64,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuraifGanee/mech-connect.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SuraifGanee/mech-connect/issues"
+  },
+  "homepage": "https://github.com/SuraifGanee/mech-connect#readme"
 }
