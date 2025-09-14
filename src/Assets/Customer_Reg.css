@@ -1,0 +1,97 @@
+body {
+    margin-top: 20px;
+    padding:30px 30px;
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px; /* Add a gap between the form and the browser's search bar */
+}
+  
+  
+  .registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 5px;
+    
+  }
+  
+  .form-section {
+    background-color: #5b9bb8;
+    border-radius: 18px;
+    padding: 40px 30px;
+    width: 460px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* enhanced shadow */
+    margin-top: 20px;
+  }
+  
+  
+  .form-section h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+  }
+  
+  .form-section label {
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #000;
+  }
+  
+  .form-section input[type="text"],
+  .form-section input[type="password"],
+  .form-section input[type="email"],
+  .form-section input[type="tel"] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 15px;
+    box-sizing: border-box;
+  }
+  
+  .next-btn,
+  .register-btn {
+    width: 100%;
+    margin-top: 30px;
+    padding: 14px;
+    background-color: #c82333;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .next-btn:hover,
+  .register-btn:hover {
+    background-color: #a71d2a;
+  }
+  
+  .upload-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .upload-box {
+    display: inline-block;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #000;
+  }
+  
+  .upload-icon {
+    font-size: 24px;
+  }
+  

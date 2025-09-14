@@ -1,0 +1,175 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .service-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Or center, based on your layout */
+    padding: 10px 30px;
+    background-color: #fff; /* optional: change or remove */
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    height: 55px; /* keeps consistent height */
+  }
+  
+  /* Logo style inside navbar */
+  .logo {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #6ca0bd; /* optional: matches your theme */
+    margin: 0; /* no extra spacing now */
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+  }
+  
+  .login-btn {
+    background-color: #f5c518;
+    border: none;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Form Section */
+  .form-section {
+    flex-grow: 1;
+    padding: 50px 40px;
+  }
+  
+  .service-form {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+  }
+  
+  .service-box {
+    background-color: #5b9bbf;
+    padding: 30px;
+    border-radius: 15px;
+    color: white;
+  }
+  
+  .service-box label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  
+  .service-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+  }
+  .button-group {
+    text-align: center;
+    margin-top: 30px;
+  }
+  /* Button Styles */
+.add-service-btn,
+.remove-service-btn,
+.submit-btn {
+  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+  
+  .add-more-btn {
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-right: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-more-btn:hover {
+    background-color: #1565c0;
+  }
+  .remove-btn {
+    background-color: #ef4444;
+    color: white;
+    padding: 6px 16px;
+    border: none;
+    border-radius: 10px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  
+  .submit-btn {
+    background-color: #c62828;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .add-service-btn:hover {
+    background-color: #ec971f;
+    color: #fff;
+  }
+  
+  .remove-service-btn:hover {
+    background-color: #c82333;
+  }
+  
+  .submit-btn:hover {
+    background-color: #138496;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+    color: #666;
+    margin-top: auto;
+    align-self: center; /* This centers it horizontally in the flex container */
+  }
+  
+  
+  

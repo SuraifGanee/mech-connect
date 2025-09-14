@@ -1,0 +1,118 @@
+.manage-container {
+  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  background-color: #f2f7fb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+  
+ /* Header */
+ /* Navbar container */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Or center, based on your layout */
+    padding: 10px 30px;
+    background-color: #fff; /* optional: change or remove */
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    height: 55px; /* keeps consistent height */
+  }
+  
+  /* Logo style inside navbar */
+  .logo {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #6ca0bd; /* optional: matches your theme */
+    margin: 0; /* no extra spacing now */
+  }
+  
+  
+  
+  /* Table */
+  .service-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px; /* Adds space between the header and the table */
+  }
+  
+  .service-table th,
+  .service-table td {
+    padding: 15px 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+  }
+  
+  .service-table th {
+    background-color: #6ca0bd;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  /* Buttons */
+  .update-btn,
+  .delete-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+  }
+  
+  .update-btn {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .update-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-btn {
+    background-color: #ef1111aa;
+    color: #fff;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c10000;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+    color: #666;
+  }
+  .loading {
+    text-align: center;
+    padding: 40px;
+    font-size: 18px;
+    color: #6ca0bd;
+  }
+  
+  .error {
+    text-align: center;
+    padding: 40px;
+    font-size: 18px;
+    color: #ef1111;
+  }
+  
