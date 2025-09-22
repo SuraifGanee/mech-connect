@@ -107,9 +107,7 @@ const ServiceDashboard = () => {
               </Link>
             ))}
           </div>
-          <footer className="footer">
-            &copy; 2025 Mech Connect. All rights reserved.
-          </footer>
+          
         </div>
       </div>
     </div>

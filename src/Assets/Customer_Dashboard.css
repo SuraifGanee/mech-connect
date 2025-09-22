@@ -13,7 +13,7 @@ body {
 .navbar {
   display: flex;
   padding: 10px 40px;
-  background-color: white;
+  background-color: white;;
 }
 
 .dashboard-header {
@@ -22,11 +22,11 @@ body {
   padding: 15px 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+ 
   position: sticky; /* or fixed if needed */
   top: 0;
   z-index: 1000;
+  height: 60px;
 }
 .dashboard-sidebar{
   padding: 3rem;
@@ -35,12 +35,14 @@ body {
 .nav-container {
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  
+  
 }
 
 .nav-left .logo {
   height: 50px;
+  margin-left: 80;
+
 }
 
 .nav-right {
