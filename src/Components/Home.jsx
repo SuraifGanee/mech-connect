@@ -78,7 +78,7 @@ const Section = ({ title, items }) => (
 );
 
 const Card = ({ title, text }) => (
-  <div className="card">
+  <div className="card" >
     <div className="card-overlay">
       <h3>{title}</h3>
       <p>{text}</p>
