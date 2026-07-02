@@ -1,7 +1,9 @@
 /* Page container */
 .login-page {
   font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #ffffff;
+   background: rgba(255, 255, 255, 0.15);
+ 
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,7 +13,13 @@
   
   /* Login box container */
   .login-box {
-    background-color: #6c9dbb;
+     background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  padding: 1.5rem;
     padding: 30px 30px;
     border-radius: 15px;
     width: 400px;

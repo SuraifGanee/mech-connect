@@ -100,7 +100,7 @@ function LoginPage() {
 
   return (
     <div className="login-page">
-      <img src="/mech connect/logo.png" alt="Mech Connect Logo" className="logo" />
+
       <div className="login-box">
         <h2>LOGIN</h2>
         <input type="text" placeholder="Enter your Email or User" value={username} onChange={(e) => setUsername(e.target.value)} />
